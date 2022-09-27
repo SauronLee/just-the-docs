@@ -94,12 +94,13 @@ layout: table_wrappers
     {% if nav_footer_custom != "" %}
       {{ nav_footer_custom }}
     {% else %}
-      <!-- <footer class="site-footer">
-        This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
-      </footer> -->
-      
+      <footer class="site-footer">
+        <!--This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.-->
+        {{ site.footer_content }}
+        <!-- 
       <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=7253ED&w=250&t=tt&d=hDGijGM-VztK5wafWGPtknXMU2sxCFxdJCQ3H23juwo&co=F5F6FA'></script>
-      
+      -->
+      </footer> 
     {% endif %}
   </div>
   <div class="main" id="top">
