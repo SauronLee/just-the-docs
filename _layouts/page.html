@@ -2,4 +2,9 @@
 layout: default
 ---
 
+
+{% for person in site.data.people %}
+    {{ person.name }}, {{ person.occupation }} <br>
+{% endfor %}
+
 {{ content }}

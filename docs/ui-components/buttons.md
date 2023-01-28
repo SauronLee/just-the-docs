@@ -1,18 +1,21 @@
 ---
-layout: default
+#layout: default
+layout: home
 title: Buttons
 parent: UI Components
 nav_order: 2
 ---
 
+
+
 # Buttons
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
+
 
 ---
 
@@ -21,7 +24,7 @@ nav_order: 2
 ### Links that look like buttons
 
 <div class="code-example" markdown="1">
-[Link button](http://example.com/){: .btn }
+[Link button](http://example.com/){: .btn .btn-aaaa }
 
 [Link button](http://example.com/){: .btn .btn-purple }
 [Link button](http://example.com/){: .btn .btn-blue }
@@ -95,3 +98,7 @@ Use the [margin utility classes]({{ site.baseurl }}{% link docs/utilities/layout
 [Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
 [Button](http://example.com/){: .btn .btn-blue }
 ```
+# Buttons2
+# Buttons4
+# Buttons5
+# Buttons6
