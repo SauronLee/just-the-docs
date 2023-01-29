@@ -99,6 +99,37 @@ Use the [margin utility classes]({{ site.baseurl }}{% link docs/utilities/layout
 [Button](http://example.com/){: .btn .btn-blue }
 ```
 # Buttons2
+
+| head1        |
+|:-------------|
+| ok           |
+| out of stock |
+| ok           |
+| ok           |
+
 # Buttons4
+
+| head1        |
+|:-------------|
+| ok           |
+| out of stock |
+| ok           |
+| ok           |
+
 # Buttons5
+
+| head1        |
+|:-------------|
+| ok           |
+| out of stock |
+| ok           |
+| ok           |
+
 # Buttons6
+
+| head1        |
+|:-------------|
+| ok           |
+| out of stock |
+| ok           |
+| ok           |
