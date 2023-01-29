@@ -23,7 +23,7 @@ layout: default
     anchors.forEach((e, idx) => {
         progress_container.appendChild(document.createElement('div'));
         h1_content_arr.push(e.textContent.trim());
-    })
+    });
     const progress_container_div_all = document.querySelectorAll("div.progress-container > div");
     progress_container_div_all.forEach((e, idx) => {
         if (idx === 1){
@@ -35,7 +35,7 @@ layout: default
             e.textContent = h1_content_arr[idx-1];
             
         }
-    })
+    });
     
     const circles = document.querySelectorAll('.progress-bar');
     let currentActive = 1;
@@ -45,21 +45,21 @@ layout: default
             currentActive = circles.length;
         }
         update();
-    })
+    });
     prev.addEventListener('click', () => {
         currentActive--;
         if(currentActive < 1) {
             currentActive = 1;
         }
         update();
-    })
+    });
     
     circles.forEach((circle, idx) => {
         circle.addEventListener('click', () => {
             currentActive = idx+1;
             update();
         })
-    })
+    });
     
     function update() {
         circles.forEach((circle, idx) => {
