@@ -68,7 +68,7 @@ layout: default
             } else {
                 circle.classList.remove('progress-active');
             }
-        })
+        });
         const actives = document.querySelectorAll('.progress-active');
         progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + '%';
         document.querySelector('#'+h1_content_arr[currentActive-1].toLowerCase()).scrollIntoView(true);
