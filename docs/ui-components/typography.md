@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: step_bar
 title: Typography
 parent: UI Components
 nav_order: 1

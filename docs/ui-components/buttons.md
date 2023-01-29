@@ -1,6 +1,5 @@
 ---
-#layout: default
-layout: home
+layout: step_bar
 title: Buttons
 parent: UI Components
 nav_order: 2
